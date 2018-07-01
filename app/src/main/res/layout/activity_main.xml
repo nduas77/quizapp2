@@ -85,7 +85,7 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="5dp"
-                android:text="If a vulture passed by and 2 hens looked up, how many eyes looked at the vulture?(1 point)"
+                android:text="If a vulture flew by and 2 hens looked up, how many eyes looked at the vulture?(1 point)"
                 android:textAlignment="textStart"
                 android:textSize="20sp" />
         </LinearLayout>
