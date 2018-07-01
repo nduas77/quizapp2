@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e0e0e0"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/neema" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ed1d19"
+            android:fontFamily="cursive"
+            android:paddingLeft="15dp"
+
+            android:paddingRight="15dp"
+            android:text="@string/welcome1"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/full_entertainment_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ed1d19"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/welcome2"
+            android:textColor="#FFFFFF"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ed1d19"
+            android:fontFamily="cursive"
+            android:gravity="right"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/welcome3"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+
+                android:text="@string/nr1"
+                android:textSize="20sp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="If a vulture passed by and 2 hens looked up, how many eyes looked at the vulture?(1 point)"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <RadioGroup
+
+            android:id="@+id/q1_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp">
+
+            <RadioButton
+                android:id="@+id/q1_one_eye_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="one eye"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/two_eyes_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="two eyes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q1_four_eyes_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="four eyes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q1_six_eyes_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="six eyes"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="@string/nr2"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="If you take two apples from three apples, what do you have?(1 point)"
+                android:textAlignment="textStart"
+                android:textSize="20sp"  />
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/q2_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp">
+
+            <RadioButton
+                android:id="@+id/five_apples_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="five apples"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="one apple"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="three apples"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="two apples"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="@string/nr3"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/question_3_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="If you are in a bus  moving from point a to c through b with 10 passengers including the driver, then at point b, 2  passengers and the driver  alighted, how many people reached point c?(1 point)"
+                android:textAlignment="textStart"
+                android:textSize="20sp"  />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/q3_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="six"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="seven"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thirteen"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/none_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="none"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="@string/nr4"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="Select two countries found in africa?(2 points)"
+                android:textAlignment="textStart"
+                android:textSize="20sp"  />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/nairobi_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:padding="1dp"
+            android:text="nairobi"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/lagos_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:padding="1dp"
+            android:text="lagos"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/manhattan_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:padding="1dp"
+            android:text="manhattan"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/paris_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:padding="1dp"
+            android:text="paris"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="@string/nr5"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/question_5_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="The highest mountain in the word is?.   The biggest desert in the world is?()2 points"
+                android:textAlignment="textStart"
+                android:textSize="20sp"  />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/everest_sahara_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:imeOptions="actionDone"
+            android:inputType="textCapWords"
+            android:paddingLeft="40dp"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="@string/nr6"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/question_6_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="How many legs do chicken have?.. do chicken have teeth?(3 points)"
+                android:textAlignment="textStart"
+                android:textSize="20sp"  />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/two_no_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/two_no_hint"
+            android:inputType="textCapWords"
+            android:paddingLeft="40dp"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/neema" />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#0d47a1"
+                android:textColor="#FFFFFF"
+                android:onClick="submitAnswers"
+                android:paddingTop="25dp"
+                android:paddingBottom="25dp"
+                android:text="@string/submit"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/neema" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

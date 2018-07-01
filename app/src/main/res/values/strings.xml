@@ -1,0 +1,128 @@
+<resources>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">full entertainment Quiz \nApp</string>
+
+    <!-- Number 1-->
+    <string name="nr1">1)</string>
+
+    <!-- Number 2-->
+    <string name="nr2">2)</string>
+
+    <!-- Number 3-->
+    <string name="nr3">3)</string>
+
+    <!-- Number 4-->
+    <string name="nr4">4)</string>
+
+    <!-- Number 5-->
+    <string name="nr5">5)</string>
+
+    <!-- Number 6-->
+    <string name="nr6">6)</string>
+
+
+    <!-- Text for the Welcome TextView [CHAR LIMIT=20] -->
+    <string name="welcome1">john nduati presents the</string>
+
+    <!-- Text for the Welcome TextView [CHAR LIMIT=20] -->
+    <string name="welcome2"> full • entertainment</string>
+
+    <!-- Text for the Welcome TextView [CHAR LIMIT=20] -->
+    <string name="welcome3">a freelance production</string>
+
+    <!-- Text for the first question TextView [CHAR LIMIT=20] -->
+    1.	    <string name="question1"> If a vulture passed by and 2 hens looked up, how many eyes looked at the vulture? (1 point)</string>
+
+    <!-- Text for the second question TextView [CHAR LIMIT=20] -->
+    <string name="question2"> If you take two apples from three apples, what do you have? (1 point)</string>
+
+    <!-- Text for the third question TextView [CHAR LIMIT=20] -->
+    <string name="question3"> If you are in a bus  moving from point a to c through b with 10 passengers including the driver, then at point b, 2  passengers and the driver  alighted, how many people reached point c? (1 point)</string>
+
+    <!-- Text for the third question TextView. 1 Point is on a new line [CHAR LIMIT=20] -->
+    <string name="question3_linebreak"> If you are in a bus  moving from point a to c through b with 10 passengers including the driver, then at point b, 2  passengers and the driver  alighted, how many people reached point c? \n(1 point)</string>
+
+    <!-- Text for the fourth question TextView [CHAR LIMIT=20] -->
+    <string name="question4"> Select two countries found in africa? (2 points)</string>
+
+    <!-- Text for the fifth question TextView [CHAR LIMIT=20] -->
+    <string name="question5"> The highest mountain in the word is?  The biggest desert in the world is? N.B space the answers(2 points)</string>
+
+    <!-- Text for the fifth question TextView. 2 Points is on a new line [CHAR LIMIT=20] -->
+    <string name="question5_linebreak"> The highest mountain in the word is?  The biggest desert in the world is? \n(2 points)</string>
+
+    <!-- Text for the sixth question TextView [CHAR LIMIT=20] -->
+    <string name="question6"> How many legs do chicken have? Do chicken have teeth?; (3 points)</string>
+
+    <!-- Text for the sixth question TextView. 3 Points is on a new line [CHAR LIMIT=20] -->
+    <string name="question6_linebreak"> How many legs do chicken have? Do chicken have teeth?; \n(3 points)</string>
+
+
+    <!-- Text for the first Radio button for question 1 [CHAR LIMIT=20] -->
+    <string name="oneEye">OneEye</string>
+
+    <!-- Text for the second Radio button for question 1 [CHAR LIMIT=20] -->
+    <string name="twoEyes">Two Eyes</string>
+
+    <!-- Text for the third Radio button for question 1 [CHAR LIMIT=20] -->
+    <string name="fourEyes">Four Eyes</string>
+
+    <!-- Text for the last Radio button for question 1 [CHAR LIMIT=20] -->
+    <string name="sixEyes">Six Eyes </string>
+
+
+    <!-- Text for the first Radio button for question 2 [CHAR LIMIT=20] -->
+    <string name="fiveApples">Five Apples</string>
+
+    <!-- Text for the second Radio button for question 2 [CHAR LIMIT=20] -->
+    <string name="oneApple">One Apple</string>
+
+    <!-- Text for the third Radio button for question 2 [CHAR LIMIT=20] -->
+    <string name="threeApples">Three Apples</string>
+
+    <!-- Text for the last Radio button for question 2 [CHAR LIMIT=20] -->
+    <string name="twoApples">Two Apples</string>
+
+
+    <!-- Text for the first Radio button for question 3 [CHAR LIMIT=20] -->
+    <string name="six">Six</string>
+
+    <!-- Text for the second Radio button for question 3 [CHAR LIMIT=20] -->
+    <string name="seven">Seven</string>
+
+    <!-- Text for the third Radio button for question 3 [CHAR LIMIT=20] -->
+    <string name="thirteen">Thirteen</string>
+
+    <!-- Text for the last Radio button for question 3 [CHAR LIMIT=20] -->
+    <string name="none">None</string>
+
+
+    <!-- Text for the first checkbox for question 4 [CHAR LIMIT=20] -->
+    <string name="nairobi">Nairobi</string>
+
+    <!-- Text for the second checkbox for question 4 [CHAR LIMIT=20] -->
+    <string name="lagos">Lagos</string>
+
+    <!-- Text for the third checkbox for question 4 [CHAR LIMIT=20] -->
+    <string name="manhattan">Manhattan</string>
+
+    <!-- Text for the last checkbox for question 4 [CHAR LIMIT=20] -->
+    <string name="paris">Paris</string>
+
+
+    <!-- Hint text for the fifth question EditTextView [CHAR LIMIT=20] -->
+    <string name="Everest_sahara_hint">Two words please</string>
+
+    <!-- Hint text for the sixth question EditTextView [CHAR LIMIT=20] -->
+    <string name="two_no_hint">Two words please</string>
+
+    <!-- Text for the Submit Button [CHAR LIMIT=20] -->
+    <string name="submit">Submit</string>
+
+</resources>
+
+
+
+
+
