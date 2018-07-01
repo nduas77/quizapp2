@@ -3,7 +3,7 @@
 This is a general knowlegde quiz app
 contains 4 - 10 questions, including  check box,  radio buttons, and  texts entry.
 
-[X] Question types: [X] Questions are in a variety of formats such as free text response, checkboxes, and radio buttons. [X] Checkboxes are only used for questions with multiple right answers. Radio buttons are only used for questions with a single right answer.
+[X] Question types: [X] Questions are in a variety of formats such as free text response, checkboxes, and radio buttons. [X] Checkboxes are only used for questions with multiple right answers. Radio buttons are only used for both questions with a single/multi right answer.
 
 Submit button: [X] App includes a button for the user to submit their answers and receive a score.
 
