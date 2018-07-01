@@ -276,7 +276,7 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="5dp"
-                android:text="Select two countries found in africa?(2 points)"
+                android:text="Select two cities found in africa?(2 points)"
                 android:textAlignment="textStart"
                 android:textSize="20sp"  />
         </LinearLayout>
@@ -342,7 +342,7 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="5dp"
-                android:text="The highest mountain in the word is?.   The biggest desert in the world is?()2 points"
+                android:text="The highest mountain in the word is?.   The biggest desert in the world is?(2 points)"
                 android:textAlignment="textStart"
                 android:textSize="20sp"  />
         </LinearLayout>
